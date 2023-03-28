@@ -1,13 +1,11 @@
-import logo from "./logo.svg"
 import "./App.css"
-import Navbar from "./components/NavBar"
-import Button from "./components/Button"
-import HeroMessage from "./components/Hero-Text"
 import Landing from "./components/LandingPage"
+import USP from "./components/USP"
 function App() {
   return (
     <div className="App">
       <Landing />
+      <USP />
     </div>
   )
 }
